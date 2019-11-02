@@ -1,3 +1,6 @@
+
+
 def square_array(array)
-  # your code here
-end
+  square_array = array.map {|x| x*x}
+  square_array
+end 
